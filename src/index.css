@@ -94,4 +94,25 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+  .neon-border {
+    box-shadow: 
+      0 0 5px hsl(164 100% 42% / 0.3),
+      0 0 20px hsl(164 100% 42% / 0.1),
+      inset 0 0 5px hsl(164 100% 42% / 0.05);
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(210 14% 22%) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(210 14% 25%);
+    border-radius: 3px;
+  }
 }
